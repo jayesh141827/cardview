@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Therd">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        app:cardCornerRadius="55sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img2" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320sp"
+        android:layout_height="320sp"
+        android:layout_margin="140sp"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="20sp">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-25sp"
+            android:hint="Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:background="#E1E3EF"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50sp"
+            android:hint="📧 E-mail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:background="#E1E3EF"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="120sp"
+            android:hint="Full Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:background="#E1E3EF"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230sp"
+            android:gravity="center_horizontal"
+            android:text="Sing in" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="-80sp"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="20sp">
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:src="@drawable/img2"
+            app:cardCornerRadius="10sp" />
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+
+            android:layout_marginRight="50sp"
+            android:src="@drawable/img3"
+            app:cardCornerRadius="10sp" />
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginRight="110sp"
+            android:src="@drawable/img4"
+            app:cardCornerRadius="10sp" />
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90sp"
+            android:src="@drawable/img7"
+            app:cardCornerRadius="10sp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:text="SKIP"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
